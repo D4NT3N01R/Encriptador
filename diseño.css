@@ -1,0 +1,147 @@
+body{
+     font-family: "Libre Franklin", sans-serif;
+}
+header{
+    background-color: #0c0c33e8;
+    padding: 20px 0;
+}
+
+.encabezado{
+    position: relative;
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.encabezado p{
+    position:absolute;
+    top: 15px;
+    left:3cm;
+    font-size: 40px;
+   
+    color: white;
+}
+main{
+   
+    margin: 0 auto;
+}
+.cuadros{
+    position: relative;
+    margin: 40px auto;
+}
+
+#cuadrodeentrada{
+    position: relative;
+    resize: none;   
+    margin: 0 43px; 
+    border-radius: 2%;
+    font-size: 20px;
+    font-family: "Libre Franklin", sans-serif;
+   
+ 
+}
+.textofinal{
+    position: absolute;
+    top: 0;
+    right: 8.1%;
+  
+    width: 30%;
+    height: 99%;
+    border-radius: 2%;
+    border:black;
+    border-width: 1px;
+    border-style:solid;
+    box-sizing: border-box;
+}
+.textofinalc{
+    color: black;
+    margin: 10px 3px 2px 10px;
+    word-wrap: break-word;
+     font-size: 20px;
+     
+}
+.botones{
+  
+    width: 70%;
+    left: 19%;
+    margin: 40px 0;
+
+}
+.botones p{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 20px;
+    font-family: "Noto Sans", sans-serif;
+}
+.botonenc{
+    border-radius: 5px;
+    padding: 20px;
+    margin:0 40px;
+    background-color: rgb(114, 109, 113);
+    border: none;
+    color: white;
+    transition: .5s;
+}
+
+.botonDesenc{
+    border-radius: 5px;
+    
+    padding: 20px;
+     margin:0 40px;
+     background-color: #02014d;
+     border: none;
+     color: white;
+     transition: .5s;
+
+}
+.botonenc:hover{
+    background-color: rgb(77, 69, 76);
+    transform: scale(1.1);
+   
+   
+}
+.botonDesenc:hover{
+    background-color: #342588a9;
+    transform: scale(1.1);
+    
+    
+}
+.botonenc:hover:active{
+    background-color: rgb(7, 7, 7);
+    transform: scale(1.1);
+    border-radius: 20%;
+}
+.botonDesenc:hover:active{
+    background-color: rgba(48, 42, 158, 0.938);
+   transform: scale(1.1);
+    border-radius: 20%;
+}
+
+#BotondeCopy{
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    width: 13%;
+    height: 7%;
+    background: fixed;
+    border-style: none;
+    
+   
+
+}
+#BotondeCopy:hover{
+    background-color: rgba(102, 94, 94, 0.623);
+}
+main{
+    margin: 0 auto;
+    width: 940px;
+}
+footer{
+    text-align: center;
+    background: #0c0c33e8;
+    padding: 130px;
+}
+.Copyright{
+    color: white;
+    font-size: 15px;
+    margin: 20px;
+}
