@@ -49,7 +49,7 @@ let sustituciones = {
     // Declarar la variable descryp con let
     let textodescifrado = "";
     for(let i = 0; i < texto.length; i++){
-     //usar el pinxi in para la condicion
+     //usar el in para la condicion con CharAT
       if(texto.charAt(i) in sustituciones){
         textodescifrado += texto.charAt(i)
         // Usar la notación de corchetes en lugar del método get
@@ -85,7 +85,7 @@ let sustituciones = {
 
     imagen.src = url;
   }
-  //Boton de copiar xd
+  //Boton de copiar 
   copybutton.addEventListener("click", function(){
     navigator.clipboard.writeText(textoFinale.textContent);
     textoFinale.textContent = textoFinale.dataset.textodefault;
